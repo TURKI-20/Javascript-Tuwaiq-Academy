@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=scs, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // ------------------------HW1----------------------------
+        let name ="Turki";
+        let age = 26;
+        let isStudent= true;
+        console.log(`my name is ${name} . I am a ${age} . ${isStudent} I am a student`);
+        let classSchedule = ["html","css","bootstrap","javascript"];
+        for(i=0 ; i<classSchedule.length; i++){
+            console.log(classSchedule[i]);
+        }
+        console.log(classSchedule);
+        function addClass (newClass){
+            let n = newClass;
+        }
+            n = "React";
+            classSchedule.push(n);
+            console.log(classSchedule);
+        // -----------------------HW2-----------------------------
+        const date = new Date("1996-01-18");
+        let month = date.getMonth();
+        console.log(month+1);
+        let day = date.getDay();
+        console.log(day+1);
+        const currentDate = new Date();
+        console.log(currentDate);
+        let currentMonth =currentDate.getMonth();
+        console.log(currentMonth+1);
+        let currentDay = currentDate.getDay();
+        console.log(currentDay);
+        if(day == currentDay && month == currentMonth){
+            console.log("happy birthday");
+        }
+        else console.log("today is not birthday");
+        //-------------------------------------------------------
+
+        
+
+
+        
+        
+
+
+
+        
+
+        
+        
+       
+
+
+
+
+
+    </script>
+</body>
+</html>
